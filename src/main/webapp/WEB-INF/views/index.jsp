@@ -26,7 +26,7 @@
         </tr>
         <tr>
             <td></td>
-            <td><input type="submit" value="Save" onchange="document.getElementById('condiment')"></td>
+            <td><input type="submit" value="Save"></td>
         </tr>
     </table>
 </form>

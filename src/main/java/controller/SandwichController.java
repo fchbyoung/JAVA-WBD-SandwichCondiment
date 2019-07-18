@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class SandwichController {
 
     @RequestMapping("/save")
-    public String save(@RequestParam(name = "condiment") String condiment, ModelMap model) {
+    public String save(@RequestParam(name = "condiment", required = false) String condiment, ModelMap model) {
         model.addAttribute("condiment", condiment);
         return "index";
     }
